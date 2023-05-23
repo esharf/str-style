@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "str-style"
+version = "0.1.0"
+description = ""
+authors = ["esharf <57587340+esharf@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "str_style"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
