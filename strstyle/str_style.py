@@ -62,7 +62,7 @@ def bold(str_body: str) -> str:
     return _paint('01', str_body)
 
 
-def disable(str_body: str) -> str:
+def disabled(str_body: str) -> str:
     return _paint('02', str_body)
 
 

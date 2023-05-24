@@ -32,7 +32,7 @@ This will print the string "<span style="color: red">Hello world</span>" with re
 - pink
 - lightcyan
 - bold
-- disable
+- disabled
 - underline
 - reverse
 - invisible

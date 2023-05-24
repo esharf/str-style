@@ -32,4 +32,4 @@ jobs:
     - name: Lint with flake8
       run: poetry run flake8 . --count --show-source --statistics
     - name: Test with pytest
-      run: poetry run pytest
+      run: poetry run pytest --cov=strstyle --cov-fail-under=100
