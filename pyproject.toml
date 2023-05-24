@@ -5,7 +5,7 @@ description = ""
 authors = ["esharf <57587340+esharf@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "str_style"}]
+packages = [{include = "strstyle"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
