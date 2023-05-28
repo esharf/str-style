@@ -43,5 +43,5 @@ This will print the string "<span style="color: red">Hello world</span>" with re
 Contributions to str-style are welcome! If you encounter any issues, have suggestions, or want to contribute improvements, please feel free to open an [issue](https://github.com/esharf/str-style/issues) or submit a [pull request](https://github.com/esharf/str-style/pulls).
 
 #### License
-This package is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
+This package is licensed under the MIT License. See the [LICENSE](https://github.com/esharf/str-style/blob/master/LICENSE) file for more details.
 
