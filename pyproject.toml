@@ -6,6 +6,11 @@ authors = ["esharf <57587340+esharf@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "strstyle"}]
+repository = "https://github.com/esharf/str-style"
+keywords = ["style", "collor"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/esharfr/str-style/issues"
 
 [tool.poetry.dependencies]
 python = "^3.7"
