@@ -42,7 +42,7 @@ def green(str_body: str) -> str:
     return f'\033[32m{str_body}\033[0m'
 
 
-def yellow(str_body: str) -> str:
+def orange(str_body: str) -> str:
     return f'\033[33m{str_body}\033[0m'
 
 
