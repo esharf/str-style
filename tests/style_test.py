@@ -1,6 +1,9 @@
-from strstyle.str_style import black, blue, bold, cyan, darkgrey, disabled, \
-    green, invisible, lightblue, lightcyan, lightgrey, reverse, lightred, \
-    orange, pink, purple, red, strikethrough, underline, yellow
+from strstyle.str_style import black, blue, blue_background, bold, cyan, \
+    cyan_background, darkgrey, disabled, double_underline, green, \
+    green_background, invisible, italic, lightblue, lightcyan, \
+    lightgrey, lightgrey_background, purple_background, \
+    red_background, sharp, lightred, orange, pink, purple, \
+    red, strikethrough, underline, yellow, yellow_background
 
 
 HELLO_WORLD = 'Hello world'
@@ -74,8 +77,8 @@ def test_underline():
     assert underline(HELLO_WORLD) == '\x1b[04mHello world\x1b[0m'
 
 
-def test_reverse():
-    assert reverse(HELLO_WORLD) == '\x1b[07mHello world\x1b[0m'
+def test_sharp():
+    assert sharp(HELLO_WORLD) == '\x1b[07mHello world\x1b[0m'
 
 
 def test_invisible():
@@ -84,3 +87,39 @@ def test_invisible():
 
 def test_strikethrough():
     assert strikethrough(HELLO_WORLD) == '\x1b[09mHello world\x1b[0m'
+
+
+def test_italic():
+    assert italic(HELLO_WORLD) == '\x1b[03mHello world\x1b[0m'
+
+
+def test_red_background():
+    assert red_background(HELLO_WORLD) == '\x1b[41mHello world\x1b[0m'
+
+
+def test_green_background():
+    assert green_background(HELLO_WORLD) == '\x1b[42mHello world\x1b[0m'
+
+
+def test_yellow_background():
+    assert yellow_background(HELLO_WORLD) == '\x1b[43mHello world\x1b[0m'
+
+
+def test_blue_background():
+    assert blue_background(HELLO_WORLD) == '\x1b[44mHello world\x1b[0m'
+
+
+def test_purple_background():
+    assert purple_background(HELLO_WORLD) == '\x1b[45mHello world\x1b[0m'
+
+
+def test_cyan_background():
+    assert cyan_background(HELLO_WORLD) == '\x1b[46mHello world\x1b[0m'
+
+
+def test_lightgrey_background():
+    assert lightgrey_background(HELLO_WORLD) == '\x1b[47mHello world\x1b[0m'
+
+
+def test_double_underline():
+    assert double_underline(HELLO_WORLD) == '\x1b[21mHello world\x1b[0m'
