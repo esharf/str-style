@@ -9,6 +9,9 @@ packages = [{include = "strstyle"}]
 repository = "https://github.com/esharf/str-style"
 keywords = ["style", "collor"]
 
+[tool.poetry.scripts]
+str-style = "strstyle.__main__:main"
+
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/esharfr/str-style/issues"
 
