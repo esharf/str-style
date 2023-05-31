@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/esharf/str-style/branch/master/graph/badge.svg?token=X35CF3HYU0)](https://codecov.io/gh/esharf/str-style)
+[![GuardRails badge](https://api.guardrails.io/v2/badges/184958?token=4d9cc37be41ca42f0bc2daa171df4f9a3c2ec046a8f510df251890dd9cdd98d2)](https://dashboard.guardrails.io/gh/esharf/repos/184958) [![codecov](https://codecov.io/gh/esharf/str-style/branch/master/graph/badge.svg?token=X35CF3HYU0)](https://codecov.io/gh/esharf/str-style)
 # str-style
 
 str-style is a Python package that provides string styling functions to enhance the visual appearance of text.
