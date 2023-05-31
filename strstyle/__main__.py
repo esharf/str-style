@@ -47,9 +47,10 @@ def main():
 
     except KeyError:
         print("\n".join([
-                    f"style: {style} does not exist available options are:",
-                    *list(map(lambda x: f"- {x}", COMMAND_TO_FUNCTION_MAP.keys())),
-                ]))
+            f"style: {style} does not exist available options are:",
+            *list(map(lambda x: f"- {x}",
+                      COMMAND_TO_FUNCTION_MAP.keys())),
+        ]))
         exit(1)
 
 
