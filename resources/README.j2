@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/esharf/str-style/branch/master/graph/badge.svg?token=X35CF3HYU0)](https://codecov.io/gh/esharf/str-style)
 # str-style
 
 str-style is a Python package that provides string styling functions to enhance the visual appearance of text.
