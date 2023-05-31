@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "str-style"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
 authors = ["esharf <57587340+esharf@users.noreply.github.com>"]
 license = "MIT"
