@@ -1,5 +1,5 @@
 from strstyle.str_style import black, blue, blue_background, bold, cyan, \
-    cyan_background, darkgrey, disabled, double_underline, green, \
+    cyan_background, dark_grey, disabled, double_underline, green, \
     green_background, invisible, italic, light_blue, light_cyan, \
     light_grey, light_grey_background, purple_background, \
     red_background, sharp, light_red, orange, pink, purple, \
@@ -41,8 +41,8 @@ def test_light_grey():
     assert light_grey(HELLO_WORLD) == '\x1b[37mHello world\x1b[0m'
 
 
-def test_darkgrey():
-    assert darkgrey(HELLO_WORLD) == '\x1b[90mHello world\x1b[0m'
+def test_dark_grey():
+    assert dark_grey(HELLO_WORLD) == '\x1b[90mHello world\x1b[0m'
 
 
 def test_light_red():
