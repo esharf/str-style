@@ -26,7 +26,10 @@ data_test_main = [
 
 @pytest.mark.parametrize('input_styles, expected_print', data_test_main)
 def test_main(capsys, mocker, input_styles, expected_print):
-    mocker.patch('strstyle.__main__.argv', ['file', *input_styles, HELLO_WORLD])
+    mocker.patch(
+        'strstyle.__main__.argv',
+        ['file', *input_styles, HELLO_WORLD]
+    )
     main()
     stdout = capsys.readouterr().out
     assert stdout == expected_print

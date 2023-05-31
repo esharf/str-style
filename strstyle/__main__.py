@@ -1,5 +1,10 @@
 from sys import argv, exit
-from strstyle import *
+from strstyle import black, blue, blue_background, bold, cyan, \
+    cyan_background, dark_grey, disabled, double_underline, green, \
+    green_background, invisible, italic, light_blue, light_cyan, light_grey, \
+    light_grey_background, light_red, orange, pink, purple, \
+    purple_background, red, red_background, sharp, strike_through, underline, \
+    yellow, yellow_background
 
 
 COMMAND_TO_FUNCTION_MAP = {
