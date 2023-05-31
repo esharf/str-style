@@ -1,9 +1,9 @@
 from strstyle.str_style import black, blue, blue_background, bold, cyan, \
     cyan_background, darkgrey, disabled, double_underline, green, \
-    green_background, invisible, italic, lightblue, lightcyan, \
-    lightgrey, lightgrey_background, purple_background, \
-    red_background, sharp, lightred, orange, pink, purple, \
-    red, strikethrough, underline, yellow, yellow_background
+    green_background, invisible, italic, light_blue, light_cyan, \
+    light_grey, light_grey_background, purple_background, \
+    red_background, sharp, light_red, orange, pink, purple, \
+    red, strike_through, underline, yellow, yellow_background
 
 
 HELLO_WORLD = 'Hello world'
@@ -37,32 +37,32 @@ def test_cyan():
     assert cyan(HELLO_WORLD) == '\x1b[36mHello world\x1b[0m'
 
 
-def test_lightgrey():
-    assert lightgrey(HELLO_WORLD) == '\x1b[37mHello world\x1b[0m'
+def test_light_grey():
+    assert light_grey(HELLO_WORLD) == '\x1b[37mHello world\x1b[0m'
 
 
 def test_darkgrey():
     assert darkgrey(HELLO_WORLD) == '\x1b[90mHello world\x1b[0m'
 
 
-def test_lightred():
-    assert lightred(HELLO_WORLD) == '\x1b[91mHello world\x1b[0m'
+def test_light_red():
+    assert light_red(HELLO_WORLD) == '\x1b[91mHello world\x1b[0m'
 
 
 def test_yellow():
     assert yellow(HELLO_WORLD) == '\x1b[93mHello world\x1b[0m'
 
 
-def test_lightblue():
-    assert lightblue(HELLO_WORLD) == '\x1b[94mHello world\x1b[0m'
+def test_light_blue():
+    assert light_blue(HELLO_WORLD) == '\x1b[94mHello world\x1b[0m'
 
 
 def test_pink():
     assert pink(HELLO_WORLD) == '\x1b[95mHello world\x1b[0m'
 
 
-def test_lightcyan():
-    assert lightcyan(HELLO_WORLD) == '\x1b[96mHello world\x1b[0m'
+def test_light_cyan():
+    assert light_cyan(HELLO_WORLD) == '\x1b[96mHello world\x1b[0m'
 
 
 def test_bold():
@@ -85,8 +85,8 @@ def test_invisible():
     assert invisible(HELLO_WORLD) == '\x1b[08mHello world\x1b[0m'
 
 
-def test_strikethrough():
-    assert strikethrough(HELLO_WORLD) == '\x1b[09mHello world\x1b[0m'
+def test_strike_through():
+    assert strike_through(HELLO_WORLD) == '\x1b[09mHello world\x1b[0m'
 
 
 def test_italic():
@@ -117,8 +117,8 @@ def test_cyan_background():
     assert cyan_background(HELLO_WORLD) == '\x1b[46mHello world\x1b[0m'
 
 
-def test_lightgrey_background():
-    assert lightgrey_background(HELLO_WORLD) == '\x1b[47mHello world\x1b[0m'
+def test_light_grey_background():
+    assert light_grey_background(HELLO_WORLD) == '\x1b[47mHello world\x1b[0m'
 
 
 def test_double_underline():
