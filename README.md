@@ -5,7 +5,14 @@ str-style is a Python package that provides string styling functions to enhance 
 
 #### Usage
 
-To use the str-style package, follow these steps:
+To use the str-style package in CLI, yoiu simply need to run the following:
+```bash
+str-style red Hello world
+```
+
+This will print the string "<span style="color: red">Hello world</span>" with red styling applied.
+
+To use the str-style package in your own python script, follow these steps:
 
 1. Import the desired styling function(s) from strstyle module.
 2. Apply the styling function(s) to your string(s) to modify their appearance.
