@@ -12,7 +12,7 @@ repo_root = Path(__file__).parent.parent
 j2_readme_path = repo_root / 'resources' / 'README.j2'
 readme_path = repo_root / 'README.md'
 code_file = repo_root / 'strstyle' / 'str_style.py'
-j2_readme_template = Template(j2_readme_path.read_text())
+j2_readme_template = Template(j2_readme_path.read_text(), autoescape=True)
 colors = re.finditer(colors_functions_regex, code_file.read_text())
 readme_path.write_text(j2_readme_template.render(
     colors=map(lambda x: x.group(), colors),
