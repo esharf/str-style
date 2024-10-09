@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "str-style"
-version = "1.0.0"
+version = "1.0.1"
 description = "str-style is a Python package for enhancing the visual appearance of text. Easily apply a variety of styles like bold, underline, colors, and more to your strings in both CLI and Python scripts."
 authors = ["esharf <57587340+esharf@users.noreply.github.com>"]
 license = "MIT"
